@@ -1,7 +1,8 @@
+ans=0
 print("整数を入力してください")
 i = int(input())
 iterLeft = i
 while (iterLeft !=0):
     ans = ans + i
     iterLeft = iterLeft - 1
-print(str(i) + '*' + str(x) + '=' + str(ans))
+print(str(i) + '*' + str(i) + '=' + str(ans))
